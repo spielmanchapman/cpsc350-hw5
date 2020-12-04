@@ -1,11 +1,17 @@
 #include "db.h"
-BST::BST(){
+/*BST::BST(){
   //root = NULL;
   //empty tree
 
 }
 
+BST::BST(int value){
+  //root = value;
+  //empty tree apart from root
+}
+
 BST::~BST(){
+
 }
 
 BST::recPrint(TreeNode *node){
@@ -138,7 +144,7 @@ bool BST::deleteNode(int k){
     }
 
     else{
-      TreeNode *successor = getSuccessor(curr); 
+      TreeNode *successor = getSuccessor(curr);
 
       if(curr == root){
         root = successor;
@@ -171,3 +177,4 @@ TreeNode* BST::getSuccessor(TreeNode *d){
   }
   return successor;
 }
+*/
