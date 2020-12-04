@@ -2,10 +2,11 @@
 #define GBST_H
 class BST{
 private:
-  //TreeNode root;
+  //TreeNode *root;
 
 public:
   BST();
+  BST(int value);
   ~BST();
 
   void insertNode(int value);
